@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f3f5f9;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px 15px;
+    color:#222;
+}
+
+.container{
+    width:100%;
+    max-width:500px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:10px;
+    font-size:2rem;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:30px;
+    line-height:1.5;
+}
+
+.input-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:20px;
+}
+
+label{
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+input,
+select{
+    width:100%;
+    padding:14px;
+    border:1px solid #d8d8d8;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+    transition:.25s;
+    background:white;
+}
+
+input:focus,
+select:focus{
+    border-color:#4f7cff;
+}
+
+.swap{
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+.swap button{
+    background:#eceff7;
+    color:#333;
+}
+
+.swap button:hover{
+    background:#dfe5f3;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#4f7cff;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.25s;
+}
+
+button:hover{
+    background:#3766f2;
+    transform:translateY(-2px);
+}
+
+button:active{
+    transform:translateY(0);
+}
+
+.convert-btn{
+    margin-top:5px;
+}
+
+.result-box{
+    margin-top:30px;
+    text-align:center;
+    padding:25px;
+    background:#f8f9fc;
+    border-radius:12px;
+    border:1px solid #e4e6eb;
+}
+
+.result-box h2{
+    margin-bottom:15px;
+}
+
+#result{
+    font-size:2rem;
+    font-weight:bold;
+    color:#3766f2;
+    word-break:break-word;
+    margin-bottom:20px;
+}
+
+#copyBtn{
+    background:#2dbe60;
+}
+
+#copyBtn:hover{
+    background:#26a553;
+}
+
+@media(max-width:600px){
+
+    body{
+        padding:20px 10px;
+    }
+
+    .card{
+        padding:22px;
+    }
+
+    h1{
+        font-size:1.7rem;
+    }
+
+    .subtitle{
+        font-size:.95rem;
+    }
+
+    input,
+    select,
+    button{
+        font-size:15px;
+    }
+
+    #result{
+        font-size:1.7rem;
+    }
+
+}
