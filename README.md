@@ -23,7 +23,7 @@ A clean and responsive Unit Converter built using HTML, CSS, and JavaScript. It 
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 
 ---
 
